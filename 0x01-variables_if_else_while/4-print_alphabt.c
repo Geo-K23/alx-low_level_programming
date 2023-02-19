@@ -1,18 +1,16 @@
 #include <stdio.h>
 /**
- * main -is the entry for the program
+ * main -prints the alphabet in lowercase except q and e
  * Return:zero if successful, other value if unsuccessful
  */
 int main(void)
 {
-	int i;
+	char c;
 
-	for (i = 97; i <= 122; i++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (i != 101 && i != 113)
-		{
-			putchar(i);
-		}
+		if (c != 'e' && c != 'q')
+			putchar(c);
 	}
 	putchar('\n');
 	return (0);
