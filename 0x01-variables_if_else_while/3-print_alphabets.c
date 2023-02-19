@@ -1,27 +1,21 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
- * main -is the entry point for the program
+ * main -is the entry of the program
  * Return:zero if successful, other value if unsuccessful
  */
 int main(void)
 {
-	char c = 'a';
-	int i;
+	char c;
 
-	for (i = 0; i < 26; i++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		putchar(c);
-		c++;
 	}
-
-	c = 'A';
-
-	for (i = 0; i < 26; i++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c);
-		c++;
+		putchar(toupper(c));
 	}
 	putchar('\n');
 	return (0);
-
 }
