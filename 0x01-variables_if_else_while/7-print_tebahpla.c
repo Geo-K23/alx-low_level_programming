@@ -1,16 +1,16 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
- * main -is the entry for the program
- * Return:zero if successful, other value if unsuccessful
+ * main - prints lower case alphabet in reverse
+ * Return: 0, if successful
  */
 int main(void)
 {
-	char letter = 'z';
+	char c;
 
-	while (letter >= 'a')
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		putchar(letter);
-		letter--;
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
