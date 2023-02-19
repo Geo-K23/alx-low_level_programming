@@ -6,8 +6,11 @@ C programming about variables, if, else and while
 <<<<<<< HEAD
 4-print_alphabat.c 
 5-print_numbers.c
+<<<<<<< HEAD
 6-print_numberz.c
 7-print_tebahpla.c
 8-print_base16.c
 =======
 >>>>>>> parent of 5133bd7... alphabet soup
+=======
+>>>>>>> parent of 42e5941... Numberz
