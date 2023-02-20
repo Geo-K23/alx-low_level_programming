@@ -11,3 +11,4 @@ C programming about variables, if, else and while
 9-print_comb.c
 100-print_comb3.c prints two digits
 101-print_comb4.c prints combinations of three digits
+102-print_comb5.c prints combinations of two two digit-numbers
