@@ -19,7 +19,7 @@ char *cap_string(char *str)
 		for (j = 0; sep[j] != '\0'; j++)
 			if (str[i - 1] == sep[j] && (str[i] >= 'a' && str[i] <= 'z'))
 				str[i] -= ('a' - 'A');
-		i++
+		i++;
 	}
 	return (str);
 
