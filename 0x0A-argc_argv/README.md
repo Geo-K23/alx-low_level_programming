@@ -4,3 +4,4 @@
 2-args.c a program that prints all arguments it receives
 3-mul.c multiplies two numbers
 4-add.c adds positive numbers.
+100-change.c prints the minimum number of coins to make change for an amount of money
